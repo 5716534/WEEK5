@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>updateGoodsServlet</servlet-name>
+        <servlet-class>com.qf.items.servlet.UpdateGoodsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateGoodsServlet</servlet-name>
+        <url-pattern>/updateGoodsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addGoodsServlet</servlet-name>
+        <servlet-class>com.qf.items.servlet.AddGoodsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addGoodsServlet</servlet-name>
+        <url-pattern>/addGoodsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginServlet1</servlet-name>
+        <servlet-class>com.qf.items.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet1</servlet-name>
+        <url-pattern>/loginServlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>indexServlet1</servlet-name>
+        <servlet-class>com.qf.items.servlet.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>indexServlet1</servlet-name>
+        <url-pattern>/indexServlet1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>deleteServlet1</servlet-name>
+        <servlet-class>com.qf.items.servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteServlet1</servlet-name>
+        <url-pattern>/deleteServlet1</url-pattern>
+    </servlet-mapping>
+    <!--<servlet>-->
+        <!--<servlet-name>goodsInsertServlet</servlet-name>-->
+        <!--<servlet-class>com.qf.items.servlet.GoodsInsertServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>goodsInsertServlet</servlet-name>-->
+        <!--<url-pattern>/goodsInsertServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>localDataServlet1</servlet-name>
+        <servlet-class>com.qf.items.servlet.LocalDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>localDataServlet1</servlet-name>
+        <url-pattern>/localDataServlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>localDataServlet2</servlet-name>
+        <servlet-class>com.qf.items.servlet.LocalDataServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>localDataServlet2</servlet-name>
+        <url-pattern>/localDataServlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>com.qf.items.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/registerServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.qf.hw.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>indexServlet</servlet-name>
+        <servlet-class>com.qf.hw.servlet.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>indexServlet</servlet-name>
+        <url-pattern>/indexServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>localDataServlet</servlet-name>
+        <servlet-class>com.qf.hw.servlet.LocalDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>localDataServlet</servlet-name>
+        <url-pattern>/localDataServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveServlet</servlet-name>
+        <servlet-class>com.qf.hw.servlet.SaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saveServlet</servlet-name>
+        <url-pattern>/saveServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteServlet</servlet-name>
+        <servlet-class>com.qf.hw.servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteServlet</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>helloServlet</servlet-name>
+        <servlet-class>servlet.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloServlet</servlet-name>
+        <url-pattern>/helloServlet</url-pattern>
+    </servlet-mapping>
+
+   <!-- <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>successServlet</servlet-name>
+        <servlet-class>homnework24.SuccessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>successServlet</servlet-name>
+        <url-pattern>/successServlet</url-pattern>
+    </servlet-mapping>
+    <!--<filter>-->
+        <!--<filter-name>loginFilter</filter-name>-->
+        <!--<filter-class>com.qf.items.Filter.LoginFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>loginFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+    <filter>
+        <filter-name>authFilter</filter-name>
+        <filter-class>com.qf.items.Filter.AuthFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>authFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+   <filter>
+       <filter-name>encodingFilter</filter-name>
+       <filter-class>day25.EncodingFilter</filter-class>
+       <init-param>
+           <param-name>encoding</param-name>
+           <param-value>utf-8</param-value>
+       </init-param>
+   </filter>
+   <filter-mapping>
+       <filter-name>encodingFilter</filter-name>
+       <url-pattern>/*</url-pattern>
+   </filter-mapping>
+</web-app>
